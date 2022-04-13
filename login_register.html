@@ -55,8 +55,8 @@
               <a class="nav-link active" aria-current="page" href="#"><img src="img/despacho.png" alt="icono despacho">Estado de despacho</a>
             </div>
             <div class="carrito">
-               <a href="#"><img src="img/carrito.png" alt="">0</a>
-            </div> 
+              <a href="carrito_vacio.html"><img src="img/carrito.png" alt="">0</a>
+           </div> 
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search Products" aria-label="Search">
             </form>
@@ -133,8 +133,9 @@
             </div>
             <div class="mb-3">  
               <label for="floatingTextarea1" class="form-label fw-bold fs-4 ">Redacte su Mensaje:</label>
-              <textarea class="form-control fs-5" placeholder="Redacte su mensaje" id="floatingTextarea1" style="height: 100px; width:500px;"></textarea>
+              <textarea class="form-control fs-5" placeholder="Redacte su mensaje" id="floatingTextarea1" style="height: 100px; width:500px; resize: none;" name="texto"></textarea>
             </div>
+            <button type="reset" class="btn btn-primary fs-4" style="background-color: #000; width:200px; box-shadow:none;" >Limpiar</button>
             <button type="submit" class="btn btn-primary fs-4" style="background-color: #000; width:200px; box-shadow:none;" >Enviar</button>
         </form> 
       </div>

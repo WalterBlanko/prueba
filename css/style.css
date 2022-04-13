@@ -36,13 +36,13 @@ button:hover {
 .nav__logo img {
     width: 30px;
     height: 30px;
-    transform: translate(-1000%, 0%);
+    transform: translate(-1300%, 0%);
 }
 
 .nav__logo img:hover {
     width: 50px;
     height: 50px;
-    transform: translate(-575%, 0%);
+    transform: translate(-752%, 0%);
 }
 
 .carrito a {
@@ -186,7 +186,7 @@ button:hover {
     text-decoration: none;
 }
 
-.producto-1:hover, .producto-2:hover, .producto-3:hover, .producto-4:hover, .producto-5:hover, .producto-5:hover {
+.producto-1:hover, .producto-2:hover, .producto-3:hover, .producto-4:hover, .producto-5:hover, .producto-6:hover {
     background-color: #c7c7c7;
     box-shadow: 6px 6px 18px 0px rgba(0,0,0,0.59);
 }
@@ -287,4 +287,21 @@ button:hover {
     margin-left: 19%;
     margin-right: 19%;
     background-color: #BABDB9;
+}
+
+.footer__alineacion {
+    text-align: left;
+}
+
+.footer__documento {
+    margin-bottom: 5px;
+}
+
+.footer__input:hover {
+    background-color: rgb(167, 255, 166);
+}
+
+.footer__botones {
+    display: flex;
+    justify-content: space-between;
 }
